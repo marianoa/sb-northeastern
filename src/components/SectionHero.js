@@ -66,6 +66,7 @@ export default function SectionHero(props) {
     } else if (textBlockWidth === "full") {
         textBlockWidth = "100%";
     }
+    console.log(backgroundImage);
     
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, backgroundImage: `url(${backgroundImage}`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundPosition:`left`}}>
